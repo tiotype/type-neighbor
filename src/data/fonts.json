@@ -1,0 +1,40 @@
+{
+  "fonts": [
+    {
+      "fontName": "Open Sans",
+      "route": "open-sans",
+      "type": "family",
+      "className": "open-sans-regular"
+    },
+    {
+      "fontName": "Merriweather",
+      "route": "merriweather",
+      "type": "family",
+      "className": "merriweather-regular"
+    },
+    {
+      "fontName": "IBM Plex Serif",
+      "route": "ibm-plex-serif",
+      "type": "family",
+      "className": "ibm-plex-serif-regular"
+    },
+    {
+      "fontName": "Bungee",
+      "route": "bungee",
+      "type": "family",
+      "className": "bungee-outline"
+    },
+    {
+      "fontName": "Ultra",
+      "route": "ultra",
+      "type": "single",
+      "className": "ultra"
+    },
+    {
+      "fontName": "Abril Fatface",
+      "route": "abril-fatface",
+      "type": "single",
+      "className": "abril-fatface"
+    }
+  ]
+}

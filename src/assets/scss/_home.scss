@@ -1,0 +1,39 @@
+// Home
+
+.home-contain {
+  padding-top: 1.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+@include media-breakpoint-up(sm) {
+  .home-contain {
+    padding-top: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .home-contain {
+    padding-top: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .home-contain {
+    padding-top: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .home-contain {
+    padding-top: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}

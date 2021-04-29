@@ -1,0 +1,60 @@
+.navigation-small {
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    // Nav Menu
+    .menu-top {
+      padding-top: 0.5em;
+      padding-left: 1.3em;
+      padding-right: 1.3em;
+      padding-bottom: 0.8em;
+      background-color: black;
+      button,
+      input[type="submit"],
+      input[type="reset"] {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+      }
+      .menu-close {
+        font-size: 2rem;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .menu-close:hover {
+        color: darken(#ffffff, 20%);
+        text-decoration: none;
+      }
+    }
+    .overlay-list-container {
+      padding-top: 5.5em;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 1.8rem;
+      line-height: 3.6rem;
+    }
+    a {
+      color: #7a7a7a;
+      text-decoration: none;
+    }
+    a:hover {
+      color: lighten(#7a7a7a, 20%);
+      text-decoration: none;
+    }
+  }
+}

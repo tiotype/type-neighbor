@@ -1,0 +1,55 @@
+// Home
+.header {
+  font-size: 1.5rem;
+  @include recursive-regular;
+  color: #ffffff;
+}
+
+.intro {
+  font-size: 1.5rem;
+  @include recursive-regular;
+  a {
+    color: #7a7a7a;
+    text-decoration: none;
+  }
+  a:hover {
+    color: lighten(#7a7a7a, 20%);
+    text-decoration: none;
+  }
+}
+
+// Info
+.info-header {
+  font-size: 1.5rem;
+  text-align: left;
+  @include recursive-regular;
+}
+
+.info-text {
+  font-size: 1rem;
+  text-align: left;
+  @include recursive-regular;
+}
+
+// Font Description
+.desc-name {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+.desc-status {
+  line-height: 1.8rem;
+  font-size: 1rem;
+  a {
+    color: #606060;
+    text-decoration: none;
+  }
+  a:hover {
+    color: lighten(#606060, 20%);
+    text-decoration: none;
+  }
+}
+
+// Navigation
+.text-disabled {
+  opacity: 0.2;
+}

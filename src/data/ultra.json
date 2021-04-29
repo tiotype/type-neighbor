@@ -1,0 +1,35 @@
+{
+  "ultra": [
+    {
+      "fontName": "Ultra",
+      "singleName": "Ultra",
+      "route": "ultra",
+      "type": "single",
+      "className": "ultra",
+      "textDefaultBig": "There are the Observatory maps, in which the places of thousands of stars are recorded with an amazing accuracy. Our beginner is not likely to make use of, or to want, such maps as these. Then there are maps merely intended to give a good general idea of the appearance of the heavens at different hours and seasons.",
+      "textBig": "There are the Observatory maps, in which the places of thousands of stars are recorded with an amazing accuracy. Our beginner is not likely to make use of, or to want, such maps as these. Then there are maps merely intended to give a good general idea of the appearance of the heavens at different hours and seasons.",
+      "textDefaultSmall": "Aa",
+      "textSmall": "Ra",
+      "sizeMinBig": "0.4",
+      "sizeMaxBig": "15.0",
+      "sizeValueDefaultBig": "5.0",
+      "sizeValueBig": "5.0",
+      "sizeStepBig": "0.05",
+      "sizeMinSmall": "0.4",
+      "sizeMaxSmall": "15.0",
+      "sizeValueDefaultSmall": "8.0",
+      "sizeValueSmall": "8.0",
+      "sizeStepSmall": "0.05",
+      "lineHeightMinBig": "0.8",
+      "lineHeightMaxBig": "3.0",
+      "lineHeightValueDefaultBig": "1.4",
+      "lineHeightValueBig": "1.4",
+      "lineHeightStepBig": "0.05",
+      "lineHeightMinSmall": "0.8",
+      "lineHeightMaxSmall": "3.0",
+      "lineHeightValueDefaultSmall": "1.4",
+      "lineHeightValueSmall": "1.4",
+      "lineHeightStepSmall": "0.05"
+    }
+  ]
+}

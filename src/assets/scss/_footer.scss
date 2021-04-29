@@ -1,0 +1,26 @@
+// Footer
+
+.footer-contain {
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+  @include recursive-regular;
+  a {
+    color: #606060;
+  }
+  a:hover {
+    color: lighten(#606060, 20%);
+    text-decoration: none;
+  }
+}
+
+.single footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,134 @@
+// Font Classes
+
+// Merriweather
+.merriweather-light {
+  @include merriweather-light;
+}
+.merriweather-light-italic {
+  @include merriweather-light-italic;
+}
+.merriweather-regular {
+  @include merriweather-regular;
+}
+.merriweather-regular-italic {
+  @include merriweather-regular-italic;
+}
+.merriweather-bold {
+  @include merriweather-bold;
+}
+.merriweather-bold-italic {
+  @include merriweather-bold-italic;
+}
+.merriweather-black {
+  @include merriweather-black;
+}
+.merriweather-black-italic {
+  @include merriweather-black-italic;
+}
+
+// Open Sans
+.open-sans-light {
+  @include open-sans-light;
+}
+.open-sans-light-italic {
+  @include open-sans-light-italic;
+}
+.open-sans-regular {
+  @include open-sans-regular;
+}
+.open-sans-regular-italic {
+  @include open-sans-regular-italic;
+}
+.open-sans-semi-bold {
+  @include open-sans-semibold;
+}
+.open-sans-semi-bold-italic {
+  @include open-sans-semibold-italic;
+}
+.open-sans-bold {
+  @include open-sans-bold;
+}
+.open-sans-bold-italic {
+  @include open-sans-bold-italic;
+}
+.open-sans-extra-bold {
+  @include open-sans-extra-bold;
+}
+.open-sans-extra-bold-italic {
+  @include open-sans-extra-bold-italic;
+}
+
+// IBM Plex Serif
+.ibm-plex-serif-thin {
+  @include ibm-plex-serif-thin;
+}
+.ibm-plex-serif-thin-italic {
+  @include ibm-plex-serif-thin-italic;
+}
+.ibm-plex-serif-extra-light {
+  @include ibm-plex-serif-extra-light;
+}
+.ibm-plex-serif-extra-light-italic {
+  @include ibm-plex-serif-extra-light-italic;
+}
+.ibm-plex-serif-light {
+  @include ibm-plex-serif-light;
+}
+.ibm-plex-serif-light-italic {
+  @include ibm-plex-serif-light-italic;
+}
+.ibm-plex-serif-regular {
+  @include ibm-plex-serif-regular;
+}
+.ibm-plex-serif-regular-italic {
+  @include ibm-plex-serif-regular-italic;
+}
+.ibm-plex-serif-medium {
+  @include ibm-plex-serif-medium;
+}
+.ibm-plex-serif-medium-italic {
+  @include ibm-plex-serif-medium-italic;
+}
+.ibm-plex-serif-semi-bold {
+  @include ibm-plex-serif-semi-bold;
+}
+.ibm-plex-serif-semi-bold-italic {
+  @include ibm-plex-serif-semi-bold-italic;
+}
+.ibm-plex-serif-bold {
+  @include ibm-plex-serif-bold;
+}
+.ibm-plex-serif-bold-italic {
+  @include ibm-plex-serif-bold-italic;
+}
+
+// Bungee
+.bungee {
+  @include bungee;
+}
+
+.bungee-outline {
+  @include bungee-outline;
+}
+
+.bungee-inline {
+  @include bungee-inline;
+}
+
+.bungee-shade {
+  @include bungee-shade;
+}
+
+.bungee-hairline {
+  @include bungee-hairline;
+}
+
+// Ultra
+.ultra {
+  @include ultra;
+}
+
+// Abril Fatface
+.abril-fatface {
+  @include abril-fatface;
+}

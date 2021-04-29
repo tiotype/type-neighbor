@@ -1,0 +1,34 @@
+// Response
+
+.response-contain {
+  padding-top: 8em;
+  padding-bottom: 2em;
+}
+
+@include media-breakpoint-up(sm) {
+  .response-contain {
+    padding-top: 8em;
+    padding-bottom: 2em;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .response-contain {
+    padding-top: 10em;
+    padding-bottom: 2em;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .response-contain {
+    padding-top: 10em;
+    padding-bottom: 2em;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .response-contain {
+    padding-top: 10em;
+    padding-bottom: 2em;
+  }
+}

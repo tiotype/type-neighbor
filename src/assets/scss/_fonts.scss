@@ -1,0 +1,40 @@
+// Fonts Contain
+
+.fonts-contain {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 9vw;
+  @include recursive-regular;
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  a:hover {
+    color: lighten(#000000, 30%);
+    text-decoration: none;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .fonts-contain {
+    padding-top: 120px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .fonts-contain {
+    padding-top: 150px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .fonts-contain {
+    padding-top: 150px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .fonts-contain {
+    padding-top: 150px;
+  }
+}

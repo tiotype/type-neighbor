@@ -1,0 +1,35 @@
+{
+  "abrilFatface": [
+    {
+      "fontName": "Abril Fatface",
+      "singleName": "Abril Fatface",
+      "route": "abril-fatface",
+      "type": "single",
+      "className": "abril-fatface",
+      "textDefaultBig": "To determine whether the spherical aberration is corrected, the telescope should be directed towards a star of the third or fourth magnitude, and focussed for distinct vision. A cap with an aperture of about one-half its diameter should then be placed over the object-glass. If no new adjustment is required for distinct vision, the spherical aberration is corrected, since the mean focal length and the focal length of the central rays are equal.",
+      "textBig": "To determine whether the spherical aberration is corrected, the telescope should be directed towards a star of the third or fourth magnitude, and focussed for distinct vision. A cap with an aperture of about one-half its diameter should then be placed over the object-glass. If no new adjustment is required for distinct vision, the spherical aberration is corrected, since the mean focal length and the focal length of the central rays are equal.",
+      "textDefaultSmall": "The spherical aberration is corrected.",
+      "textSmall": "The Spherical Aberration",
+      "sizeMinBig": "0.4",
+      "sizeMaxBig": "15.0",
+      "sizeValueDefaultBig": "3.0",
+      "sizeValueBig": "3.0",
+      "sizeStepBig": "0.05",
+      "sizeMinSmall": "0.4",
+      "sizeMaxSmall": "15.0",
+      "sizeValueDefaultSmall": "3.0",
+      "sizeValueSmall": "3.0",
+      "sizeStepSmall": "0.05",
+      "lineHeightMinBig": "0.8",
+      "lineHeightMaxBig": "3.0",
+      "lineHeightValueDefaultBig": "1.4",
+      "lineHeightValueBig": "1.4",
+      "lineHeightStepBig": "0.05",
+      "lineHeightMinSmall": "0.8",
+      "lineHeightMaxSmall": "3.0",
+      "lineHeightValueDefaultSmall": "1.4",
+      "lineHeightValueSmall": "1.4",
+      "lineHeightStepSmall": "0.05"
+    }
+  ]
+}

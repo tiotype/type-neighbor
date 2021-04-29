@@ -1,0 +1,284 @@
+// Font Mixins
+
+// Merriweather
+@mixin merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@mixin merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@mixin merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@mixin merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@mixin merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+// Open Sans
+@mixin open-sans-light {
+  font-family: "Open Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin open-sans-light-italic {
+  font-family: "Open Sans", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@mixin open-sans-regular {
+  font-family: "Open Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin open-sans-regular-italic {
+  font-family: "Open Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@mixin open-sans-semibold {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin open-sans-semibold-italic {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@mixin open-sans-bold {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin open-sans-bold-italic {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@mixin open-sans-extra-bold {
+  font-family: "Open Sans", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@mixin open-sans-extra-bold-italic {
+  font-family: "Open Sans", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+// IBM Plex
+@mixin ibm-plex-serif-thin {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@mixin ibm-plex-serif-thin-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+@mixin ibm-plex-serif-extra-light {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@mixin ibm-plex-serif-extra-light-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+@mixin ibm-plex-serif-light {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin ibm-plex-serif-light-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@mixin ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin ibm-plex-serif-regular-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@mixin ibm-plex-serif-medium {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin ibm-plex-serif-medium-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@mixin ibm-plex-serif-semi-bold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin ibm-plex-serif-semi-bold-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@mixin ibm-plex-serif-bold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin ibm-plex-serif-bold-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+// Bungee Outline
+@mixin bungee {
+  font-family: "Bungee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin bungee-outline {
+  font-family: "Bungee Outline", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin bungee-inline {
+  font-family: "Bungee Inline", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin bungee-shade {
+  font-family: "Bungee Shade", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin bungee-hairline {
+  font-family: "Bungee Hairline", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Ultra
+@mixin ultra {
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Abril Fatface
+@mixin abril-fatface {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Recursive
+@mixin recursive-light {
+  font-family: "Recursive", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin recursive-regular {
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin recursive-medium {
+  font-family: "Recursive", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin recursive-semi-bold {
+  font-family: "Recursive", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin recursive-bold {
+  font-family: "Recursive", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin recursive-extra-bold {
+  font-family: "Recursive", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@mixin recursive-black {
+  font-family: "Recursive", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
