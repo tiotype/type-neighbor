@@ -1,6 +1,6 @@
 # Type Neighbor
 
-Type Neighbor is a Gatsby 3 starter with a static type tester.
+Type Neighbor is a Gatsby v3 starter with a static type tester.
 
 [https://typeneighbor.com](https://typeneighbor.com/)
 
@@ -74,6 +74,13 @@ Add the @font-face declarations for your self-hosted fonts to \_webfonts.scss.
 
 Add font mixins to \_mixins.scss.
 
+```
+└── src
+    └── assets
+        └── scss
+            └── _mixins.scss
+```
+
 ```css
 @mixin open-sans-regular {
   font-family: "Open Sans", serif;
@@ -85,6 +92,13 @@ Add font mixins to \_mixins.scss.
 4. **Font classes**
 
 Add font classes to \_collection.scss.
+
+```
+└── src
+    └── assets
+        └── scss
+            └── _collection.scss
+```
 
 ```css
 .open-sans-regular {
@@ -174,8 +188,9 @@ Type Neighbor uses breakpoints from Bootstrap 5. See [Bootstrap 5 Breakpoints](h
 ```
 // Font Info
 fontName: The name of font family
-singleName: The name of individual font within family (e.g. weight or style)
+singleName: The name of the individual font within family (e.g. weight or style)
 route: The route for navigation
+className: The class name of the individual font (referenced in _collection.scss)
 
 // Specimen Text
 textDefaultBig: The default specimen text used when tester is reset (on medium, large devices)
@@ -232,3 +247,7 @@ Sample of font properties in font tester controls.
   onChange={event => onLineHeightChangeBig(i, event)}
 ></input>
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
