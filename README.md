@@ -8,7 +8,7 @@ Type Neighbor is a Gatsby 3 starter with a static type tester.
 
 ## Purpose
 
-Type Neighbor is meant for type designers or foundries who use React or Gatsby for their specimen sites or portfolios. Its initial state is built with six fonts from the Google Fonts library for demonstration purposes. You can easily add your own self-hosted web fonts, adjust the CSS, and customize the json data that forms the basis of each individual type tester. It currently supports static font families or single fonts. Variable font tools and full glyph sets should be added in the future.
+Type Neighbor is meant for type designers or foundries who use React or Gatsby for their specimen sites or portfolios. Its initial state is built with six fonts from the Google Fonts library for demonstration purposes. You can easily add your own self-hosted or hosted web fonts, adjust the CSS, and customize the json data that forms the basis of each individual type tester. It currently supports static font families or single fonts. Variable font tools and full glyph sets should be added in the future.
 
 ## Getting Started
 
@@ -38,7 +38,9 @@ Your site is now running at `http://localhost:8000`.
 
 ## Add Fonts
 
-1. **Add self-hosted fonts**
+The following documentation is for self hosted web fonts. If you are using hosted fonts (such as Google Fonts or Adobe Fonts) simply @import the fonts in style.scss and continue to create your mixins and classes as referenced below.
+
+1. **Self-hosted fonts**
 
 Add your own self-hosted fonts to the fonts folder.
 
@@ -49,7 +51,7 @@ Add your own self-hosted fonts to the fonts folder.
             └── open-sans-v18-latin-regular.woff
 ```
 
-2. **Add @font-face declarations**
+2. **@font-face declarations**
 
 Add the @font-face declarations for your self-hosted fonts to \_webfonts.scss.
 
@@ -68,7 +70,7 @@ Add the @font-face declarations for your self-hosted fonts to \_webfonts.scss.
 }
 ```
 
-3. **Add mixins**
+3. **Mixins**
 
 Add font mixins to \_mixins.scss.
 
@@ -80,7 +82,7 @@ Add font mixins to \_mixins.scss.
 }
 ```
 
-4. **Add font classes**
+4. **Font classes**
 
 Add font classes to \_collection.scss.
 
@@ -94,7 +96,7 @@ Add font classes to \_collection.scss.
 
 1. **Add your fonts to the homepage**
 
-The homepage font list is controlled by fonts.json. Add each font's data to the "fonts" array.
+The homepage font list is populated by data from fonts.json. Add each font's data to the fonts object in fonts.json.
 
 ```
 └── src
@@ -119,7 +121,7 @@ The homepage font list is controlled by fonts.json. Add each font's data to the 
 
 1. **Add tester data for each font**
 
-Each font page imports data from its own json array. Create a json file for each font page in the data folder. For each font within a font family, create a nested array.
+Each font tester imports data from its own json object. Create these json objects in json files in the data folder. For each font within a font family, create an array in that object.
 
 ```
 └── src
@@ -163,4 +165,70 @@ Each font page imports data from its own json array. Create a json file for each
     }
   ]
 }
+```
+
+While all the properties can be customized, the list below is a reference for the properties that are most useful to adjust for each individual font within a family.
+
+Type Neighbor uses breakpoints from Bootstrap 5. See [Bootstrap 5 Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/).
+
+```
+// Font Info
+fontName: The name of font family
+singleName: The name of individual font within family (e.g. weight or style)
+route: The route for navigation
+
+// Specimen Text
+textDefaultBig: The default specimen text used when tester is reset (on medium, large devices)
+textBig: The initial specimen text used on tester page (on medium, large devices)
+textDefaultSmall: The default specimen text used when tester is reset (on small devices)
+textSmall: The initial specimen text used on tester page (on small devices)
+
+// Font Size
+sizeValueDefaultBig: The default specimen font size when tester is reset (on medium, large devices)
+sizeValueBig: The initial specimen font size used on tester page (on medium, large devices)
+sizeValueDefaultSmall: The default specimen font size when tester is reset (on small devices)
+sizeValueSmall: The initial specimen font size used on tester page (on small devices)
+
+```
+
+2. **Add tester page for each font**
+
+The properties in the json objects correspond to the controls on each font's type tester page.
+
+```
+└── src
+    └── pages
+        └── fonts
+            └── open-sans.js
+```
+
+Map items from json object.
+
+```javascript
+useEffect(() => {
+  setFonts(
+    fontsData.openSans.map(item => ({
+      ...item,
+      overflow: true,
+      alignmentBig: "text-left",
+      alignmentSmall: "text-center",
+    }))
+  )
+}, [])
+```
+
+Sample of font properties in font tester controls.
+
+```html
+<input
+  type="range"
+  name="line-height"
+  min={item.lineHeightMinBig}
+  max={item.lineHeightMaxBig}
+  value={item.lineHeightValueBig}
+  step={item.lineHeightStepBig}
+  className="form-range range line-height"
+  aria-label="Line Height"
+  onChange={event => onLineHeightChangeBig(i, event)}
+></input>
 ```
