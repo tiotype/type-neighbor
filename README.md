@@ -4,7 +4,7 @@ Type Neighbor is a Gatsby 3 starter with a static type tester.
 
 [https://typeneighbor.com](https://typeneighbor.com/)
 
-![Type Neighbor](https://github.com/tiotype/type-neighbor/blob/3dab2e3d10e21027202d4739a964ed7d2eb26f88/src/assets/images/readme.png)
+![Type Neighbor](https://github.com/tiotype/type-neighbor/blob/3dab2e3d10e21027202d4739a964ed7d2eb26f88/src/assets/images/readme-screen.png)
 
 ## Purpose
 
