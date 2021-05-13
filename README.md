@@ -4,6 +4,8 @@ Type Neighbor is a Gatsby 3 starter with a static type tester.
 
 [https://typeneighbor.com](https://typeneighbor.com/)
 
+![Type Neighbor](https://github.com/tiotype/type-neighbor/blob/3dab2e3d10e21027202d4739a964ed7d2eb26f88/src/assets/images/readme.png)
+
 ## Purpose
 
 Type Neighbor is meant for type designers or foundries who use React or Gatsby for their specimen sites or portfolios. Its initial state is built with six fonts from the Google Fonts library for demonstration purposes. You can easily add your own self-hosted web fonts, adjust the CSS, and customize the json data that forms the basis of each individual type tester. It currently supports static font families or single fonts. Variable font tools and full glyph sets should be added in the future.
