@@ -90,7 +90,7 @@ function AbrilFatface() {
       if (idx === i) {
         return {
           ...item,
-          alignmentBig: "text-right",
+          alignmentBig: "text-end",
         }
       }
       return item
@@ -103,7 +103,7 @@ function AbrilFatface() {
       if (idx === i) {
         return {
           ...item,
-          alignmentSmall: "text-right",
+          alignmentSmall: "text-end",
         }
       }
       return item
