@@ -15,7 +15,7 @@ const Navigation = () => (
         <Link to="/fonts" className="fonts-nav">
           Fonts
         </Link>
-        <a href="https://github.com/tiotype" className="info-nav">
+        <a href="https://github.com/tiotype/type-neighbor" className="info-nav">
           Github
         </a>
       </div>
